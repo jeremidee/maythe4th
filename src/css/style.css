@@ -566,7 +566,7 @@ section.row .bg .img {
 
 @media all and (max-width: 767px) {
   #sec6 .bg .img {
-    background-position: -230px 0px;
+    background-position: -100px 0px;
   }
 }
 
@@ -586,7 +586,7 @@ section.row .bg .img {
 
 @media all and (max-width: 767px) {
   #sec8 .bg .img {
-    background-position: -230px 0px;
+    background-position: -180px 0px;
   }
 }
 

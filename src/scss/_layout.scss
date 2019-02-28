@@ -383,7 +383,7 @@ section.row {
   .bg .img {
     background-image: url('../img/sec6.jpg');
     @include phone{
-      background-position: -230px 0px;
+      background-position: -100px 0px;
     } 
   }
 }
@@ -399,7 +399,7 @@ section.row {
   .bg .img {
     background-image: url('../img/sec8.jpg');
     @include phone{
-      background-position: -230px 0px;
+      background-position: -180px 0px;
     } 
   }
   .init {
