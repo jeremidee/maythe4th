@@ -366,7 +366,7 @@ section.row {
     background-position: center center;
     transform: translateZ(0);
     will-change: transform;
-    @include bg('../img/sec1.svg',cover);
+    @include bg('../img/sec1.jpg',cover);
     // background-attachment: fixed;
     filter: brightness(0.8);
   }
@@ -380,18 +380,18 @@ section.row {
 }
 #sec2 {
   .bg .img {
-    background-image: url('../img/sec2.svg');
+    background-image: url('../img/sec2.jpg');
   }
   
 }
 #sec3 {
   .bg .img {
-    background-image: url('../img/sec3.svg');
+    background-image: url('../img/sec3.jpg');
   }
 }
 #sec4 {
   .bg .img {
-    background-image: url('../img/sec4.svg');
+    background-image: url('../img/sec4.jpg');
     @include phone{
       background-position: -400px 0px;
     }
@@ -402,12 +402,12 @@ section.row {
 }
 #sec5 {
   .bg .img {
-    background-image: url('../img/sec5.svg');
+    background-image: url('../img/sec5.jpg');
   }
 }
 #sec6 {
   .bg .img {
-    background-image: url('../img/sec6.svg');
+    background-image: url('../img/sec6.jpg');
     @include phone{
       background-position: -100px 0px;
     } 
@@ -415,7 +415,7 @@ section.row {
 }
 #sec7 {
   .bg .img {
-    background-image: url('../img/sec7.svg');
+    background-image: url('../img/sec7.jpg');
     @include phone{
       background-position: -230px 0px;
     } 
@@ -423,7 +423,7 @@ section.row {
 }
 #sec8 {
   .bg .img {
-    background-image: url('../img/sec8.svg');
+    background-image: url('../img/sec8.jpg');
     @include phone{
       background-position: -180px 0px;
     } 
