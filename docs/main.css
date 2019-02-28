@@ -2,7 +2,7 @@
 @import url(https://fonts.googleapis.com/css?family=Noto+Serif+TC);
 @charset "UTF-8";
 :root:before {
-  content: url(images/30bde3ac235727e30c87fea61c7ddbe0.jpg) url(images/a07557703b7e1b886b4abe9983a2e71b.jpg) url(images/ee5ed6b6bc536d284eab6226cdf7fbe1.jpg) url(images/ddd40f1a3eeedc27d0a7f73e2b66670b.jpg);
+  content: url(images/30bde3ac235727e30c87fea61c7ddbe0.jpg) url(images/a07557703b7e1b886b4abe9983a2e71b.jpg) url(images/ee5ed6b6bc536d284eab6226cdf7fbe1.jpg) url(images/ddd40f1a3eeedc27d0a7f73e2b66670b.jpg) url(images/51f5f29d0a57a8f298ccf46dabd59c12.jpg) url(images/6b0fe6b19033b712a85cd7844f2ad383.jpg) url(images/5b28d019235da466cd971b0340e8dc9e.jpg) url(images/61c3ef34a9e5033eb4b2e8c31c720f12.jpg) url(images/96b61823812b9a7bc84764d3800479a7.jpg) url(images/9cb2a3f42ee5a724e960b63f9dfde56a.jpg) url(images/113f42656fe7f694d63657ccd7275fd0.jpg) url(images/6bab653ad0fa77ccf1cb097ef18a85ea.jpg);
   visibility: hidden;
   display: none;
 }
@@ -91,6 +91,7 @@ body {
   -webkit-transition: .5s;
   transition: .5s;
   background-blend-mode: darken;
+  background: #000;
 }
 
 body > figure {

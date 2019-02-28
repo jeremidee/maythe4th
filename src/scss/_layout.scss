@@ -4,6 +4,7 @@ body {
   height: 100vh;
   transition: .5s;
   background-blend-mode: darken;
+  background: #000;
   > figure {
     animation: imageAnimation 30s linear infinite 0s;
     backface-visibility: hidden;
