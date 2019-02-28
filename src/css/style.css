@@ -330,13 +330,25 @@ main.home {
 
 #t2 {
   top: 50%;
-  -webkit-animation: fadein 2s 2s alternate forwards;
-          animation: fadein 2s 2s alternate forwards;
+  -webkit-animation: fadein 2s alternate forwards;
+          animation: fadein 2s alternate forwards;
 }
 
 @media all and (max-width: 767px) {
   #t2 {
     top: 41%;
+  }
+}
+
+#t3 {
+  top: 60%;
+  -webkit-animation: fadein 2s alternate forwards;
+          animation: fadein 2s alternate forwards;
+}
+
+@media all and (max-width: 767px) {
+  #t3 {
+    top: 42%;
   }
 }
 
