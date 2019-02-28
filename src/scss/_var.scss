@@ -1,0 +1,50 @@
+$gray:#F2F2F2;
+
+
+@mixin bg($path, $size) {
+  background-image: url($path);
+  background-size: $size;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+// MEDIA QUERY MB大小調整
+
+$ip5:374px;
+$ip8:413px;
+$pad:415px;
+
+@mixin iphone5(){
+    @media all and (max-width: $ip5){
+        @content;
+    }
+}
+
+@mixin iphone8(){
+    @media all and (min-width: $ip5) and (max-width:$ip8) {
+        @content;
+    }
+}
+
+@mixin iphone8plus(){
+    @media all and (min-width:$ip8) and (max-width:$pad) {
+        @content;
+    }
+}
+@mixin phone() {
+  @media all and (max-width: 767px) {
+      @content;
+  }
+}
+
+@mixin medium() {
+    @media all and (min-width: $pad) and (max-width: 1199px) {
+        @content;
+    }
+}
+
+@mixin wideScreen() {
+  @media all and (min-width: 1200px) {
+      @content;
+  }
+}

@@ -1,0 +1,78 @@
+:root:before {
+  content:url('../img/bg1_wide.jpg')
+          url('../img/bg2.jpg')
+          url('../img/bg3.jpg')
+          url('../img/bg4.jpg');
+  visibility: hidden;
+  display: none;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Suravaram');
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif+TC');
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  transition: all 0.3s;
+}
+a:visited,
+a:hover,
+a:active,
+a:focus {
+  text-decoration: none;
+  transition: all 0.3s;
+  outline: none;
+  /* for Firefox */
+  /*hlbr: expression(this.onFocus=this.blur());*/
+  cursor: pointer;
+}
+div,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+fieldset,
+input,
+select,
+textarea,
+p,
+span,
+blockquote,
+th,
+td,
+a,
+button {
+    margin: 0;
+    padding: 0;
+    -webkit-text-size-adjust: none;
+    /*解決Chrome 12px以下字級*/
+    font-family: 'Noto Serif TC', serif;
+    letter-spacing: 0.42px
+}
+
+button {
+  background: transparent;
+  border:0;
+  outline: none;
+  &:focus {
+    outline: none;
+    box-shadow: 0;
+  }
+}
