@@ -91,7 +91,21 @@ body {
   -webkit-transition: .5s;
   transition: .5s;
   background-blend-mode: darken;
-  background: #000;
+  background-color: #000;
+}
+
+body.index {
+  overflow: auto;
+}
+
+body.bg1 {
+  background-color: transparent;
+  background-image: url(images/30bde3ac235727e30c87fea61c7ddbe0.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  -webkit-transition: .5s;
+  transition: .5s;
 }
 
 body > figure {
@@ -135,15 +149,6 @@ body > figure:nth-child(4) {
   -webkit-animation-delay: 24s;
           animation-delay: 24s;
   background-image: url(images/a07557703b7e1b886b4abe9983a2e71b.jpg);
-}
-
-body.bg1 {
-  background-image: url(images/30bde3ac235727e30c87fea61c7ddbe0.jpg);
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  -webkit-transition: .5s;
-  transition: .5s;
 }
 
 @-webkit-keyframes imageAnimation {
@@ -325,9 +330,15 @@ main.home {
 }
 
 #t2 {
-  top: 41%;
+  top: 50%;
   -webkit-animation: fadein 2s 2s alternate forwards;
           animation: fadein 2s 2s alternate forwards;
+}
+
+@media all and (max-width: 767px) {
+  #t2 {
+    top: 41%;
+  }
 }
 
 .form {

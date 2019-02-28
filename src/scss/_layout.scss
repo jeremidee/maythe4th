@@ -4,7 +4,15 @@ body {
   height: 100vh;
   transition: .5s;
   background-blend-mode: darken;
-  background: #000;
+  background-color: #000; 
+  &.index {
+    overflow: auto;
+  }
+  &.bg1 {
+    background-color: transparent;
+    @include bg('../img/bg1.jpg',cover);
+    transition: .5s;
+  }
   > figure {
     animation: imageAnimation 30s linear infinite 0s;
     backface-visibility: hidden;
@@ -38,10 +46,6 @@ body {
     }
   }
 
-  &.bg1 {
-    @include bg('../img/bg1.jpg',cover);
-    transition: .5s;
-  }
   // &.bg2 {
   //   background-image: url('../img/bg2.jpg');
   //   transition: .5s;
@@ -55,9 +59,7 @@ body {
   //   background-image: url('../img/bg4.jpg');
   //   transition: .5s;
   // }
-  // &.index {
-  //   overflow: auto;
-  // }
+  
 }
 @keyframes imageAnimation {  
   0% {
@@ -179,7 +181,10 @@ button.submit {
   animation: fadein 2s alternate forwards;
 }
 #t2 {
-  top: 41%;
+  top: 50%;
+  @include phone {
+    top: 41%;
+  }
   animation: fadein 2s 2s alternate forwards;
 }
 .form {
