@@ -558,7 +558,7 @@ section.row .bg .img {
   -webkit-transform: translateZ(0);
           transform: translateZ(0);
   will-change: transform;
-  background-image: url("../img/sec1.jpg");
+  background-image: url("../img/sec1.svg");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -573,15 +573,15 @@ section.row .bg .img {
 }
 
 #sec2 .bg .img {
-  background-image: url("../img/sec2.jpg");
+  background-image: url("../img/sec2.svg");
 }
 
 #sec3 .bg .img {
-  background-image: url("../img/sec3.jpg");
+  background-image: url("../img/sec3.svg");
 }
 
 #sec4 .bg .img {
-  background-image: url("../img/sec4.jpg");
+  background-image: url("../img/sec4.svg");
 }
 
 @media all and (max-width: 767px) {
@@ -597,11 +597,11 @@ section.row .bg .img {
 }
 
 #sec5 .bg .img {
-  background-image: url("../img/sec5.jpg");
+  background-image: url("../img/sec5.svg");
 }
 
 #sec6 .bg .img {
-  background-image: url("../img/sec6.jpg");
+  background-image: url("../img/sec6.svg");
 }
 
 @media all and (max-width: 767px) {
@@ -611,7 +611,7 @@ section.row .bg .img {
 }
 
 #sec7 .bg .img {
-  background-image: url("../img/sec7.jpg");
+  background-image: url("../img/sec7.svg");
 }
 
 @media all and (max-width: 767px) {
@@ -621,7 +621,7 @@ section.row .bg .img {
 }
 
 #sec8 .bg .img {
-  background-image: url("../img/sec8.jpg");
+  background-image: url("../img/sec8.svg");
 }
 
 @media all and (max-width: 767px) {
