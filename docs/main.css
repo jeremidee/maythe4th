@@ -2,7 +2,7 @@
 @import url(https://fonts.googleapis.com/css?family=Noto+Serif+TC);
 @charset "UTF-8";
 :root:before {
-  content: url(images/16b34a17327a1333ab92f7abd4bca285.jpg) url(images/a07557703b7e1b886b4abe9983a2e71b.jpg) url(images/ee5ed6b6bc536d284eab6226cdf7fbe1.jpg) url(images/ddd40f1a3eeedc27d0a7f73e2b66670b.jpg);
+  content: url(images/30bde3ac235727e30c87fea61c7ddbe0.jpg) url(images/a07557703b7e1b886b4abe9983a2e71b.jpg) url(images/ee5ed6b6bc536d284eab6226cdf7fbe1.jpg) url(images/ddd40f1a3eeedc27d0a7f73e2b66670b.jpg);
   visibility: hidden;
   display: none;
 }
@@ -94,21 +94,12 @@ body {
 }
 
 body.bg1 {
-  background-image: url(images/04121a23c84f2d7f07a6b778161d6ce3.jpg);
+  background-image: url(images/30bde3ac235727e30c87fea61c7ddbe0.jpg);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
   -webkit-transition: .5s;
   transition: .5s;
-}
-
-@media all and (min-width: 1200px) {
-  body.bg1 {
-    background-image: url(images/16b34a17327a1333ab92f7abd4bca285.jpg);
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-  }
 }
 
 body.bg2 {
@@ -214,7 +205,7 @@ main.home {
   }
 }
 
-.title {
+.title, .result-title {
   font-size: 36px;
   font-family: 'Suravaram', serif;
   color: #F2F2F2;
@@ -225,12 +216,53 @@ main.home {
 }
 
 @media all and (max-width: 767px) {
-  .title {
+  .title, .result-title {
     font-size: 24px;
     letter-spacing: 1px;
     font-weight: 300;
     top: 35%;
   }
+}
+
+@-webkit-keyframes fadein {
+  from {
+    opacity: 0;
+    -webkit-transform: translateY(30px);
+            transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+    -webkit-transform: translateY(30px);
+            transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+.result-title {
+  opacity: 0;
+}
+
+#t1 {
+  -webkit-animation: fadein 2s alternate forwards;
+          animation: fadein 2s alternate forwards;
+}
+
+#t2 {
+  top: 41%;
+  -webkit-animation: fadein 2s 2s alternate forwards;
+          animation: fadein 2s 2s alternate forwards;
 }
 
 .form {

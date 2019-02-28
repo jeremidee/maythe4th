@@ -230,12 +230,15 @@ $(function () {
         hideQ();
     });
 
-    // let submitted = false;
-    // $('#hidden_result').on('load',function(){
-    //   if(submitted)  {
-    //     console.log('ok');
-    //     window.location='./result.html';
-    //   }
-    // });
+    let submitted = false;
+    $('.form').on('submit',function(){
+        submitted = true;
+    });
+    $('#hidden_result').on('load',function(){
+      if(submitted)  {
+        console.log('ok');
+        window.location='./result.html';
+      }
+    });
 
 });
