@@ -188,9 +188,11 @@ button.submit {
   animation: fadein 2s alternate forwards;
 }
 #t3 {
-  top: 60%;
+  top: 80%;
+  font-size: 16px;
   @include phone {
-    top: 42%;
+    font-size: 12px;
+    top: 90%;
   }
   animation: fadein 2s alternate forwards;
 }

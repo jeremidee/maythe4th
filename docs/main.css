@@ -341,14 +341,16 @@ main.home {
 }
 
 #t3 {
-  top: 60%;
+  top: 80%;
+  font-size: 16px;
   -webkit-animation: fadein 2s alternate forwards;
           animation: fadein 2s alternate forwards;
 }
 
 @media all and (max-width: 767px) {
   #t3 {
-    top: 42%;
+    font-size: 12px;
+    top: 90%;
   }
 }
 
