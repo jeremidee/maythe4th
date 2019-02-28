@@ -30,7 +30,7 @@ module.exports = {
                     {
                         loader:'url-loader',
                         options:{
-                            limit:5 * 1024,
+                            limit:10000,
                             outputPath:'images'
                         }
                     }

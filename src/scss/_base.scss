@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Suravaram');
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif+TC');
 :root:before {
   content:url('../img/bg1.jpg')
           url('../img/bg2.jpg')
@@ -8,8 +10,6 @@
   display: none;
 }
 
-@import url('https://fonts.googleapis.com/css?family=Suravaram');
-@import url('https://fonts.googleapis.com/css?family=Noto+Serif+TC');
 * {
   box-sizing: border-box;
   margin: 0;

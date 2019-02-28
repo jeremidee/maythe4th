@@ -518,7 +518,7 @@ section.row .bg .img {
   -webkit-transform: translateZ(0);
           transform: translateZ(0);
   will-change: transform;
-  background-image: url(images/01f416f068bbbfdc1bb4354b07c0af68.jpg);
+  background-image: url(images/51f5f29d0a57a8f298ccf46dabd59c12.jpg);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -533,15 +533,15 @@ section.row .bg .img {
 }
 
 #sec2 .bg .img {
-  background-image: url(images/b4aa29e0ff76a781099ac2d1d84181d7.jpg);
+  background-image: url(images/6b0fe6b19033b712a85cd7844f2ad383.jpg);
 }
 
 #sec3 .bg .img {
-  background-image: url(images/0079e3042a445ebaac939c8f2e7db7b8.jpg);
+  background-image: url(images/5b28d019235da466cd971b0340e8dc9e.jpg);
 }
 
 #sec4 .bg .img {
-  background-image: url(images/d211c20407aec57a558731ef8deeae7c.jpg);
+  background-image: url(images/61c3ef34a9e5033eb4b2e8c31c720f12.jpg);
 }
 
 @media all and (max-width: 767px) {
@@ -557,11 +557,11 @@ section.row .bg .img {
 }
 
 #sec5 .bg .img {
-  background-image: url(images/78256a7356fa9f253ad1169b30c14364.jpg);
+  background-image: url(images/96b61823812b9a7bc84764d3800479a7.jpg);
 }
 
 #sec6 .bg .img {
-  background-image: url(images/65398658359552048cde2b271471567c.jpg);
+  background-image: url(images/9cb2a3f42ee5a724e960b63f9dfde56a.jpg);
 }
 
 @media all and (max-width: 767px) {
@@ -571,7 +571,7 @@ section.row .bg .img {
 }
 
 #sec7 .bg .img {
-  background-image: url(images/8a38f2d5dfeb2e02118fbbed3b6e3e59.jpg);
+  background-image: url(images/113f42656fe7f694d63657ccd7275fd0.jpg);
 }
 
 @media all and (max-width: 767px) {
@@ -581,7 +581,7 @@ section.row .bg .img {
 }
 
 #sec8 .bg .img {
-  background-image: url(images/0eac0f1e3db597975ef98f87f2f15f77.jpg);
+  background-image: url(images/6bab653ad0fa77ccf1cb097ef18a85ea.jpg);
 }
 
 @media all and (max-width: 767px) {
