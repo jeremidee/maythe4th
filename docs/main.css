@@ -447,6 +447,11 @@ section.question .radio input[type=radio]:checked + .radio-box, section.question
   }
 }
 
+#ques3 .input-grp {
+  position: absolute;
+  top: 40%;
+}
+
 @media all and (max-width: 374px) {
   #ques3 .input-grp {
     position: absolute;
@@ -490,6 +495,29 @@ section.question .radio input[type=radio]:checked + .radio-box, section.question
     left: 30%;
     bottom: 50px;
   }
+}
+
+.inforow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.info {
+  width: 50%;
+  text-align: center;
+  padding: 10px;
+  color: #F2F2F2;
+  font-size: 12px;
+}
+
+.info:first-child {
+  border-right: 1px solid #F2F2F2;
+}
+
+.info .time {
+  margin-right: 5px;
+  font-style: italic;
 }
 
 section.row {

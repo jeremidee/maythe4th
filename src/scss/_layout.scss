@@ -277,6 +277,8 @@ section.question {
   }
 }
 #ques3 .input-grp {
+  position: absolute;
+    top: 40%;
   @include iphone5{
     position: absolute;
     top: 35%;
@@ -309,6 +311,24 @@ section.question {
   @include wideScreen{
     left: 30%;
     bottom: 50px;
+  }
+}
+.inforow {
+  display: flex;
+  
+}
+.info {
+  width: 50%;
+  text-align: center;
+  padding: 10px;
+  color:$gray;
+  font-size: 12px;
+  &:first-child {
+    border-right:1px solid $gray;
+  }
+  .time {
+    margin-right: 5px;
+    font-style: italic;
   }
 }
 
