@@ -37,10 +37,10 @@ body {
     }
   }
 
-  // &.bg1 {
-    
-  //   transition: .5s;
-  // }
+  &.bg1 {
+    @include bg('../img/bg1.jpg',cover);
+    transition: .5s;
+  }
   // &.bg2 {
   //   background-image: url('../img/bg2.jpg');
   //   transition: .5s;
